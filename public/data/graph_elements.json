@@ -1,0 +1,41 @@
+{
+    "nodes": [ 
+        { "data": { "id": "cop_city", "label": "Cop City" } },
+        { "data": { "id": "climate_change", "label": "Climate Change" } },
+        { "data": { "id": "israel_palestine", "label": "Israel Palestine Conflict" } }
+    ],
+    "edges":[
+        {
+            "data": {
+                "id": "cop_city->climate_change",
+                "source": "cop_city",
+                "target": "climate_change",
+                "label": "public park"
+            }
+        },
+        {
+            "data": {
+                "id": "cop_city->israel_palestine",
+                "source": "cop_city",
+                "target": "israel_palestine",
+                "label": "soldiers"
+            }
+        },
+        {
+            "data": {
+                "id": "israel_palestine->cop_city",
+                "source": "israel_palestine",
+                "target": "cop_city",
+                "label": "funding"
+            }
+        },
+        {
+            "data": {
+                "id": "climate_change->israel_palestine",
+                "source": "climate_change",
+                "target": "israel_palestine",
+                "label": "bombs"
+            }
+        }
+    ]
+}
