@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Installing Packages
+
+If you've cloned this package for the first time, you should run:
+### `npm install`
+
+This will install all the packages. If you don't have `npm`, you probably will have to install `node` on your machine.
+
+# Cytoscape
+
+This app uses Cytoscape to build a graph, and the documentation for this can be found here: https://js.cytoscape.org/
+Cytoscape has a bunch of layouts, all of which can be found on the website, currently we are using the fcose-layout: https://github.com/iVis-at-Bilkent/cytoscape.js-fcose
+In order to better use Cytoscape as a React Component, we use the React Cytoscape library: https://github.com/plotly/react-cytoscapejs
+
 ## Available Scripts
 
 In the project directory, you can run:
